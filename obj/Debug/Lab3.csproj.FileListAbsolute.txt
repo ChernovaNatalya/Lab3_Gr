@@ -1,0 +1,17 @@
+D:\Учёба\program\Lab3\bin\Debug\Lab3.exe.config
+D:\Учёба\program\Lab3\bin\Debug\Lab3.exe
+D:\Учёба\program\Lab3\bin\Debug\Lab3.pdb
+D:\Учёба\program\Lab3\bin\Debug\OpenTK.dll
+D:\Учёба\program\Lab3\bin\Debug\OpenTK.GLControl.dll
+D:\Учёба\program\Lab3\bin\Debug\OpenTK.pdb
+D:\Учёба\program\Lab3\bin\Debug\OpenTK.xml
+D:\Учёба\program\Lab3\bin\Debug\OpenTK.GLControl.pdb
+D:\Учёба\program\Lab3\bin\Debug\OpenTK.GLControl.xml
+D:\Учёба\program\Lab3\obj\Debug\Lab3.csproj.AssemblyReference.cache
+D:\Учёба\program\Lab3\obj\Debug\Lab3.Properties.Resources.resources
+D:\Учёба\program\Lab3\obj\Debug\Lab3.csproj.GenerateResource.cache
+D:\Учёба\program\Lab3\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+D:\Учёба\program\Lab3\obj\Debug\Lab3.csproj.Up2Date
+D:\Учёба\program\Lab3\obj\Debug\Lab3.exe
+D:\Учёба\program\Lab3\obj\Debug\Lab3.pdb
+D:\Учёба\program\Lab3\obj\Debug\Lab3.Form1.resources

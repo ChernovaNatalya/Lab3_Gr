@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\program\\lab3\\raytracing.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|solutionrelative:raytracing.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|solutionrelative:view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\raytracing.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|solutionrelative:raytracing.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAmwFAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T16:09:51.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "View.cs",
+              "DocumentMoniker": "D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\View.cs",
+              "RelativeDocumentMoniker": "View.cs",
+              "ToolTip": "D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\View.cs",
+              "RelativeToolTip": "View.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAiwFkAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T15:05:20.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "raytracing.frag",
+              "DocumentMoniker": "D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\raytracing.frag",
+              "RelativeDocumentMoniker": "raytracing.frag",
+              "ToolTip": "D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\raytracing.frag",
+              "RelativeToolTip": "raytracing.frag",
+              "ViewState": "AQIAACICAAAAAAAAAAAAwAwCAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-21T15:04:57.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "raytracing.vert",
+              "DocumentMoniker": "D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\raytracing.vert",
+              "RelativeDocumentMoniker": "raytracing.vert",
+              "ToolTip": "D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\raytracing.vert",
+              "RelativeToolTip": "raytracing.vert",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-21T15:04:36.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T15:01:51.694Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
