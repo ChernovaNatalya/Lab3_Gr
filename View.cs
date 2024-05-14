@@ -40,8 +40,8 @@ namespace Lab3
        public void InitShaders()
         {
             BasicProgramID = GL.CreateProgram(); // создание объекта программы
-            loadShader("..\\..\\..\\Lab3\\raytracing.vert", ShaderType.VertexShader, BasicProgramID, out BasicVertexShader);
-            loadShader("..\\..\\..\\Lab3\\raytracing.frag", ShaderType.FragmentShader, BasicProgramID, out BasicFragmentShader);
+            loadShader("D:\\учеба\\4semester\\ComputerGraphic\\Lab3\\Lab3_Gr\\raytracing.vert", ShaderType.VertexShader, BasicProgramID, out BasicVertexShader);
+            loadShader("D:\\учеба\\4semester\\ComputerGraphic\\Lab3\\Lab3_Gr\\raytracing.frag", ShaderType.FragmentShader, BasicProgramID, out BasicFragmentShader);
             GL.LinkProgram(BasicProgramID);
             GL.ValidateProgram(BasicProgramID);
             // Проверяем успех компоновки
@@ -77,15 +77,15 @@ namespace Lab3
             GL.DrawArrays(PrimitiveType.Quads, 0, 4);
             GL.DisableClientState(ArrayCap.VertexArray);
         }
-        public void Setup(/*OpenTK.Vector3 pos, OpenTK.Vector2 dir,*/ int depth)
+        public void Setup(OpenTK.Vector3 pos, OpenTK.Vector2 dir, int depth)
         {
-            /*
+            
             int k = GL.GetUniformLocation(BasicProgramID, "iCamPos");
             GL.Uniform3(k, pos);
             k = GL.GetUniformLocation(BasicProgramID, "iMouseDir");
             GL.Uniform2(k, dir);
-            */
-           int  k = GL.GetUniformLocation(BasicProgramID, "RetraceDepth");
+            
+            k = GL.GetUniformLocation(BasicProgramID, "RetraceDepth");
             GL.Uniform1(k, depth);
             GL.Uniform3(GL.GetUniformLocation(BasicProgramID, "MaterialColor"), new OpenTK.Vector3(0.5f));
             GL.Uniform1(GL.GetUniformLocation(BasicProgramID, "MaterialTransparency"), 0.5f);

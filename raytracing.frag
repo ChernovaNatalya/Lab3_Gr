@@ -38,7 +38,6 @@ struct SRay
 	vec3 Origin;
 	vec3 Direction;
 };
-
 struct SSphere
 {
 	vec3 Center;
@@ -57,14 +56,12 @@ struct STetrahedron {
     int size;
     int MaterialIdx;
 };
-
 struct SSquare {
     STriangle triangles[2];
     int a;
     int b;
     int MaterialIdx;
 };
-
 struct SCube {
     SSquare squares[6];
     int a;
@@ -123,8 +120,6 @@ Stack stack;
 SLight uLight;
 //SLight uLight2;
 
-
-
 //for stack
 bool isEmpty()
 {
@@ -158,9 +153,6 @@ vec3 rotatePanes(vec3 pos, vec3 angle) {
     return pos * rotateMatrix;
 }
 
-
-
-
 SRay GenerateRay(SCamera uCamera)
 {
 	vec2 coords = glPosition.xy * uCamera.Scale;
@@ -179,35 +171,6 @@ SCamera initializeDefaultCamera()
 	camera.Scale = vec2(1.0);
 	return camera;
 }
-/*
-void initializeDefaultScene()
-{
-	triangles[0].v1 = vec3(-5.0,-5.0,-5.0);
-	triangles[0].v2 = vec3(-5.0, 5.0, 5.0);
-	triangles[0].v3 = vec3(-5.0, 5.0,-5.0);
-	triangles[0].MaterialIdx = 0;
-	triangles[1].v1 = vec3(-5.0,-5.0,-5.0);
-	triangles[1].v2 = vec3(-5.0,-5.0, 5.0);
-	triangles[1].v3 = vec3(-5.0, 5.0, 5.0);
-	triangles[1].MaterialIdx = 0;
-
-	triangles[2].v1 = vec3(-5.0,-5.0, 5.0);
-	triangles[2].v2 = vec3( 5.0,-5.0, 5.0);
-	triangles[2].v3 = vec3(-5.0, 5.0, 5.0);
-	triangles[2].MaterialIdx = 0;
-	triangles[3].v1 = vec3( 5.0, 5.0, 5.0);
-	triangles[3].v2 = vec3(-5.0, 5.0, 5.0);
-	triangles[3].v3 = vec3( 5.0,-5.0, 5.0);
-	triangles[3].MaterialIdx = 0;
-
-	spheres[0].Center = vec3(-1.0,-1.0,-2.0);
-	spheres[0].Radius = 2.0;
-	spheres[0].MaterialIdx = 0;
-	spheres[1].Center = vec3(2.0,1.0,2.0);
-	spheres[1].Radius = 1.0;
-	spheres[1].MaterialIdx = 0;
-}
-*/
 
 bool IntersectSphere ( SSphere sphere, SRay ray, float start, float final, out float time )
 {
@@ -385,6 +348,29 @@ bool Raytrace ( SRay ray, float start, float final, inout SIntersection intersec
             }
         }
     }
+	//SSquare squares[COUNT_SQUARES]; // ROOM
+	for (int i = 0; i < COUNT_SQUARES; i++) {
+        SSquare square = squares[i];
+         for (int k = 0; k < 2; k++) {
+                STriangle triangle = square.triangles[k];
+                if(IntersectTriangle(ray, triangle.v1, triangle.v2, triangle.v3, test) && test < intersect.Time)
+                {
+                intersect.Time = test;
+				intersect.Point = ray.Origin + ray.Direction * test;
+				vec3 edge1 = triangle.v2 - triangle.v1;
+				vec3 edge2 = triangle.v3 - triangle.v1;
+				intersect.Normal = normalize(cross(edge1, edge2));
+				if (dot(intersect.Normal, ray.Direction) > 0.0) { intersect.Normal = -intersect.Normal; }
+				intersect.Color = materials[triangle.MaterialIdx].Color;
+				intersect.LightCoeffs = materials[triangle.MaterialIdx].LightCoeffs;
+				intersect.ReflectionCoef = materials[triangle.MaterialIdx].ReflectionCoef;
+				intersect.RefractionCoef = materials[triangle.MaterialIdx].RefractionCoef;
+				intersect.MaterialType = materials[triangle.MaterialIdx].MaterialType;
+				result = true;
+                }
+            }
+    }
+	
 
 
     }
@@ -479,25 +465,6 @@ STetrahedron initializeTetrahedron(vec3 pos, vec3 angle, int size, int MaterialI
 }
 void initializeDefaultLightMaterials()
 {
-	/*
-	vec4 lightCoefs = vec4(0.4,0.9,0.0,512.0);
-	materials[0].Color = vec3(0.0, 1.0, 0.0);
-	materials[0].LightCoeffs = vec4(lightCoefs);
-	materials[0].ReflectionCoef = 0.5;
-	materials[0].RefractionCoef = 1.0;
-	materials[0].MaterialType = DIFFUSE;
-	materials[1].Color = vec3(0.0, 0.0, 1.0);
-	materials[1].LightCoeffs = vec4(lightCoefs);
-	materials[1].ReflectionCoef = 0.5;
-	materials[1].RefractionCoef = 1.0;
-	materials[1].MaterialType = DIFFUSE;
-	materials[2].Color = MaterialColor;
-	materials[2].LightCoeffs = vec4(lightCoefs);
-	materials[2].ReflectionCoef = MaterialReflectivity;
-	materials[2].RefractionCoef = MaterialTransparency;
-	materials[2].MaterialType = DIFFUSE_REFLECTION;
-	*/
-
 	//** LIGHT **//
 	light.Position = vec3(0.0, 2.0, -4.0f);
 	uLight.Position = vec3(4.0, 15.0, -4.0f);
@@ -552,7 +519,6 @@ void initializeDefaultLightMaterials()
 	materials[7].RefractionCoef = 1.5;
 	materials[7].MaterialType = REFRACTION;
 }
-
 void initializeWalls(vec3 offset, int size) {
     vec3 v1 = vec3(0, 0, 0) * size + offset;
     vec3 v2 = vec3(0, 1, 1) * size + offset;

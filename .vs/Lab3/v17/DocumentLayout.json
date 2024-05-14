@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\",
+  "WorkspaceRootPath": "D:\\\u0443\u0447\u0435\u0431\u0430\\4semester\\ComputerGraphic\\Lab3\\Lab3_Gr\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|d:\\\u0443\u0447\u0451\u0431\u0430\\program\\lab3\\raytracing.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|solutionrelative:raytracing.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|d:\\\u0443\u0447\u0435\u0431\u0430\\4semester\\computergraphic\\lab3\\lab3_gr\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|solutionrelative:view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\raytracing.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|D:\\\u0443\u0447\u0435\u0431\u0430\\4semester\\ComputerGraphic\\Lab3\\Lab3_Gr\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|D:\\\u0443\u0447\u0435\u0431\u0430\\4semester\\ComputerGraphic\\Lab3\\Lab3_Gr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|D:\\\u0443\u0447\u0435\u0431\u0430\\4semester\\ComputerGraphic\\Lab3\\Lab3_Gr\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|D:\\\u0443\u0447\u0435\u0431\u0430\\4semester\\ComputerGraphic\\Lab3\\Lab3_Gr\\raytracing.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|solutionrelative:raytracing.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|D:\\\u0443\u0447\u0435\u0431\u0430\\4semester\\ComputerGraphic\\Lab3\\Lab3_Gr\\raytracing.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{ADF28371-4A44-4FCE-A30A-09AEBEE93DB8}|Lab3.csproj|solutionrelative:raytracing.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,83 +34,105 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAmwFAAAAAoAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\4semester\\ComputerGraphic\\Lab3\\Lab3_Gr\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\4semester\\ComputerGraphic\\Lab3\\Lab3_Gr\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T16:09:51.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T00:33:34.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\4semester\\ComputerGraphic\\Lab3\\Lab3_Gr\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\4semester\\ComputerGraphic\\Lab3\\Lab3_Gr\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAjwGAAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T16:09:51.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "View.cs",
-              "DocumentMoniker": "D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\View.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\4semester\\ComputerGraphic\\Lab3\\Lab3_Gr\\View.cs",
               "RelativeDocumentMoniker": "View.cs",
-              "ToolTip": "D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\View.cs",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\4semester\\ComputerGraphic\\Lab3\\Lab3_Gr\\View.cs",
               "RelativeToolTip": "View.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAiwFkAAABMAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAFMAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-21T15:05:20.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "raytracing.frag",
-              "DocumentMoniker": "D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\raytracing.frag",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\4semester\\ComputerGraphic\\Lab3\\Lab3_Gr\\raytracing.frag",
               "RelativeDocumentMoniker": "raytracing.frag",
-              "ToolTip": "D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\raytracing.frag",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\4semester\\ComputerGraphic\\Lab3\\Lab3_Gr\\raytracing.frag",
               "RelativeToolTip": "raytracing.frag",
-              "ViewState": "AQIAACICAAAAAAAAAAAAwAwCAAAzAAAA",
+              "ViewState": "AQIAAPsBAAAAAAAAAAD4vwgCAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-21T15:04:57.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-21T15:04:57.256Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "raytracing.vert",
-              "DocumentMoniker": "D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\raytracing.vert",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\4semester\\ComputerGraphic\\Lab3\\Lab3_Gr\\raytracing.vert",
               "RelativeDocumentMoniker": "raytracing.vert",
-              "ToolTip": "D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\raytracing.vert",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\4semester\\ComputerGraphic\\Lab3\\Lab3_Gr\\raytracing.vert",
               "RelativeToolTip": "raytracing.vert",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-21T15:04:36.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-21T15:04:36.297Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\Form1.cs",
+              "DocumentMoniker": "D:\\\u0443\u0447\u0435\u0431\u0430\\4semester\\ComputerGraphic\\Lab3\\Lab3_Gr\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\\u0423\u0447\u0451\u0431\u0430\\program\\Lab3\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "D:\\\u0443\u0447\u0435\u0431\u0430\\4semester\\ComputerGraphic\\Lab3\\Lab3_Gr\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T15:01:51.694Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2024-04-21T15:01:51.694Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1268,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
